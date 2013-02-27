@@ -1,0 +1,27 @@
+{
+    "name": "presta/cms-theme-basic-bundle",
+    "type": "symfony-bundle",
+    "description": "PrestaCMS Theme Basic bundle : Basic themes for PrestaCMS",
+    "keywords": ["symfony2", "bundle", "cms", "symfony-cmf", "prestaconcept", "media"],
+    "homepage": "https://github.com/prestaconcept/PrestaCMSThemeBasicBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Bastien",
+            "email": "nbastien@prestaconcept.net",
+            "homepage": "http://www.prestaconcept.net/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "suggest": {
+        "presta/cms-core-bundle": "dev-master",
+        "sonata-project/media-bundle": "2.1.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "Presta\\CMSThemeBasicBundle": "" }
+    },
+    "target-dir": "Presta/CMSThemeBasicBundle"
+}
