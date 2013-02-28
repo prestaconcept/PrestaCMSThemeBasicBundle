@@ -1,0 +1,9 @@
+{#
+Tricky way to get assetic generate my css as I can't add it dynamically in my template
+#}
+{% stylesheets
+    '@PrestaCMSThemeBasicBundle/Resources/public/theme/creative/admin/admin.less'
+    output='bundles/prestacmsthemebasic/theme/creative/admin/admin.css'
+%}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+{% endstylesheets %}

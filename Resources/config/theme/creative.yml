@@ -1,0 +1,50 @@
+presta_cms_core:
+    themes:
+        creative:
+            name: creative
+            description: Creative theme
+            navigations: [main]
+            template: PrestaCMSThemeBasicBundle:Theme/Creative:layout.html.twig
+            screenshot: 'bundles/prestacmsthemebasic/theme/creative/screenshot.jpg'
+            admin_style: 'bundles/prestacmsthemebasic/theme/creative/admin/admin.css'
+            zones:
+                top:
+                    rows: 1
+                    cols: 12
+                    name: top
+                    can_add_block: false
+                    can_sort_block: false
+                navigation:
+                    rows: 1
+                    cols: 12
+                    name: navigation
+                    can_add_block: false
+                    can_sort_block: false
+                content:
+                    rows: 4
+                    cols: 12
+                    name: content
+                    can_add_block: false
+                    can_sort_block: false
+                footer_left:
+                    rows: 1
+                    cols: 2
+                    name: footer_left
+                    can_add_block: false
+                    can_sort_block: false
+                    blocks: {}
+                footer_middle:
+                    rows: 1
+                    cols: 4
+                    name: footer_middle
+                    can_add_block: false
+                    can_sort_block: false
+                    blocks: {}
+                footer_right:
+                    rows: 1
+                    cols: 6
+                    name: footer_right
+                    can_add_block: false
+                    can_sort_block: false
+                    blocks: {}
+
