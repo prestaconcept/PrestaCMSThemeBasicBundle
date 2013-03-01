@@ -1,0 +1,29 @@
+
+.navbar-inverse .navbar-inner {
+    background: @navigationBackground;
+}
+.navbar-inner {
+    .border-radius(0px);
+
+}
+.navbar-inverse .nav > li > a {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 25px;
+}
+
+.navbar .nav > li > .dropdown-menu {
+    padding: 0px;
+    margin-top: 0px;
+    .border-radius(0px);
+
+    > li > a {
+        color: #FFF;
+        font-weight: bold;
+        padding: 15px 20px;
+    }
+    &:before {
+        display: none;
+    }
+}

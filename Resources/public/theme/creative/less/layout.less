@@ -1,0 +1,100 @@
+
+// Body reset
+// -------------------------
+
+body {
+    margin: 0;
+    font-family: @baseFontFamily;
+    font-size: @baseFontSize;
+    line-height: @baseLineHeight;
+    color: @textColor;
+    background-color: @bodyBackground;
+}
+
+#wrapper {
+    background: #FFF;
+    width: 960px;
+    padding: 35px 20px;
+    margin: 50px auto 0 auto;
+}
+
+#header {
+    .logo {
+        font-style: italic;
+        margin-bottom: 15px;
+
+        a {
+            font-size: 50px;
+            line-height: 50px;
+            color: #444;
+            text-shadow: 1px 1px white, -1px -1px #ACACAC;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        div {
+            color: #ACACAC;
+            margin-left: 35px;
+        }
+    }
+    .links {
+
+    }
+}
+
+#page {
+    min-height: 450px;
+}
+
+#footer {
+    background: #303030;
+    width: 960px;
+    padding: 15px 35px 35px 35px;
+    margin: 0 auto 50px auto;
+
+    color: #aaa;
+
+    h2 {
+        color: #FFF;
+        font-size: 16px;
+        border-bottom: 1px solid #3c3c3c;
+    }
+    a {
+        color: #FFF;
+    }
+}
+#footer {
+    #footer-bottom {
+        border-top: 1px solid #3c3c3c;
+        margin-top: 25px;
+        font-size: 12px;
+        font-style: italic;
+        p {
+            float: left;
+            margin-top: 15px;
+        }
+    }
+    #footer-legend {
+        font-size: 12px;
+        text-align: center;
+        font-style: italic;
+        color: #FFF;
+        margin-top: 15px;
+    }
+    #scroll-top-top {
+        float: right;
+        background-color: @cyan;
+        a {
+            width: 35px;
+            height: 35px;
+            display: block;
+            background: url(/bundles/prestacmsthemebasic/libs/img/glyphicons/glyphicons_213_up_arrow.png) 50% 50% no-repeat transparent;
+            opacity:0.4;
+            -webkit-transition: all 0.1s ease-in-out;
+            -moz-transition: all 0.1s ease-in-out;
+            -o-transition: all 0.1s ease-in-out;
+            -ms-transition: all 0.1s ease-in-out;
+            transition: all 0.1s ease-in-out;
+        }
+    }
+}
