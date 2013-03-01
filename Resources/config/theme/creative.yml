@@ -32,14 +32,24 @@ presta_cms_core:
                     name: footer_left
                     can_add_block: false
                     can_sort_block: false
-                    blocks: {}
+                    blocks:
+                        editor:
+                            type: presta_cms.block.simple
+                            is_editable: true
+                            is_deletable: false
+                            position: 10
                 footer_middle:
                     rows: 1
                     cols: 4
                     name: footer_middle
                     can_add_block: false
                     can_sort_block: false
-                    blocks: {}
+                    blocks:
+                        editor:
+                            type: presta_cms.block.simple
+                            is_editable: true
+                            is_deletable: false
+                            position: 10
                 footer_right:
                     rows: 1
                     cols: 6
@@ -47,4 +57,21 @@ presta_cms_core:
                     can_add_block: false
                     can_sort_block: false
                     blocks: {}
+            page_template:
+                default:
+                    name: default
+                    path: PrestaCMSThemeBasicBundle:Theme/Creative/Page:default.html.twig
+                    zones:
+                        content:
+                            rows: 1
+                            cols: 12
+                            name: content
+                            can_add_block: false
+                            can_sort_block: false
+                            blocks:
+                                editor:
+                                    type: presta_cms.block.simple
+                                    is_editable: true
+                                    is_deletable: false
+                                    position: 10
 
