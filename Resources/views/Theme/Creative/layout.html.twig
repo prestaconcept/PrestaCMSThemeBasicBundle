@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html {{ sonata_seo_html_attributes() }} xmlns="http://www.w3.org/1999/html">
+    <head>
+        {{ sonata_seo_title() }}
+        {{ sonata_seo_metadatas() }}
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        {% block stylesheets %}
+            {% stylesheets
+                '@PrestaCMSThemeBasicBundle/Resources/public/theme/creative/less/creative.less'
+            %}
+            <link rel="stylesheet" href="{{ asset_url }}" />
+            {% endstylesheets %}
+        {% endblock %}
+
+    </head>
+    <body class="creative cyan">
+        <div id="wrapper">
+            <div class="container">
+                <div id="header" class="row">
+                    <div class="span7 logo">
+                        <a href="/" >{{ [website, '.logo.title']|join|trans([], 'Creative') }}</a>
+                        <div class="logo-legend">{{ [website, '.logo.legend']|join|trans([], 'Creative') }}</div>
+                    </div>
+                    <div class="span5  links">
+                        <ul class="social">
+                            <ul class="social">
+                                <li><a href="#" class="rss"></a></li>
+                                <li><a href="#" class="facebook"></a></li>
+                                <li><a href="#" class="twitter"></a></li>
+                                <li><a href="#" class="linkedin"></a></li>
+                                <li><a href="#" class="github"></a></li>
+                                <li><a href="#" class="googleplus"></a></li>
+                                <li><a href="#" class="email"></a></li>
+                                <li><a href="#" class="pinterest"></a></li>
+                                <li><a href="#" class="youtube"></a></li>
+                                <li><a href="#" class="paypal"></a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar navbar-inverse">
+                    <div class="navbar-inner">
+                        <div id="navigation" class="container">
+                            {{ knp_menu_render('main', {'template' : 'PrestaCMSThemeBasicBundle:Theme/Creative/Layout:knp_menu.html.twig'}) }}
+                        </div>
+                    </div>
+                </div>
+                <div id="page">
+                    {% block content %}{% endblock %}
+                </div>
+
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="span3">
+                        {% if theme.zones.footer_left is defined %}
+                            {% for block in theme.zones.footer_left.blocks %}
+                                {{ sonata_block_render(block) }}
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                    <div class="span3">
+                        {% if theme.zones.footer_middle is defined %}
+                            {% for block in theme.zones.footer_middle.blocks %}
+                                {{ sonata_block_render(block) }}
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                    <div class="span6">
+
+                    </div>
+                </div>
+                <div id="footer-bottom" class="row">
+                    <div class="span12">
+                        <p>© Copyright 2012 by <a href="#">Creative</a>. All rights reserved.</p>
+                        <div id="scroll-top-top"><a href="#"></a></div>
+                    </div>
+                </div>
+                <div id="footer-legend" class="row">
+                    <div class="span12">{{ 'prestacms.bottom.legend'|trans([], 'Creative') }}</div>
+                </div>
+            </div>
+        </div>
+
+        {% block javascripts %}
+            {% javascripts
+                '@PrestaCMSThemeBasicBundle/Resources/public/libs/js/jquery.js'
+                '@PrestaCMSThemeBasicBundle/Resources/public/libs/bootstrap/js/*.js'
+            %}
+            <script type="text/javascript" src="{{ asset_url }}"></script>
+            {% endjavascripts %}
+        {% endblock %}
+        <script type="text/javascript">
+            $('.dropdown-toggle').dropdown();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+{% block content %}
+    <div class="row right-sidebar">
+        <div class="span9">
+            {% if page.zones.content is defined %}
+                {% for block in page.zones.content.blocks %}
+                    {{ sonata_block_render(block) }}
+                {% endfor %}
+            {% endif %}
+        </div>
+        <div class="span3">
+            <div class="sidebar">
+                {% if page.zones.right is defined %}
+                    {% for block in page.zones.right.blocks %}
+                        {{ sonata_block_render(block) }}
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
