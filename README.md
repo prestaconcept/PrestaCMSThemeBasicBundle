@@ -39,6 +39,11 @@ public function registerBundles()
 
 [WIP] :construction:
 
+### Creative
+
+![PrestaCMS Creative Theme](https://raw.github.com/prestaconcept/PrestaCMSThemeBasicBundle/master/Resources/public/theme/creative/screenshot.jp)
+
+
 ## Ask for help ##
 
 :speech_balloon: If you need help about this project you can [post a message on our google group][3]
