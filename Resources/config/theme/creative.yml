@@ -38,6 +38,11 @@ presta_cms_core:
                             is_editable: true
                             is_deletable: false
                             position: 10
+                            settings:
+                                title: About Us
+                                content: |
+                                    Lorem sequat ipsum dolor lorem sit amet, consectetur adipiscing dolor elit. Aenean nisl orci, condimentum.
+                                    Consectetur adipiscing elit aeneane lorem lipsum, condimentum ultrices consequat eu, vehicula mauris lipsum adipiscing lipsum aenean orci lorem.
                 footer_middle:
                     rows: 1
                     cols: 4
@@ -65,6 +70,34 @@ presta_cms_core:
                         content:
                             rows: 1
                             cols: 12
+                            name: content
+                            can_add_block: false
+                            can_sort_block: false
+                            blocks:
+                                editor:
+                                    type: presta_cms.block.simple
+                                    is_editable: true
+                                    is_deletable: false
+                                    position: 10
+                left-sidebar:
+                    name: left-sidebar
+                    path: PrestaCMSThemeBasicBundle:Theme/Creative/Page:left-sidebar.html.twig
+                    zones:
+                        left:
+                            rows: 1
+                            cols: 2
+                            name: left
+                            can_add_block: false
+                            can_sort_block: false
+                            blocks:
+                                editor:
+                                    type: presta_cms.block.simple
+                                    is_editable: true
+                                    is_deletable: false
+                                    position: 10
+                        content:
+                            rows: 1
+                            cols: 10
                             name: content
                             can_add_block: false
                             can_sort_block: false
