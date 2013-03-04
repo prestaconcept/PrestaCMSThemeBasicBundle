@@ -50,8 +50,8 @@ presta_cms_core:
                     can_add_block: false
                     can_sort_block: false
                     blocks:
-                        editor:
-                            type: presta_cms.block.simple
+                        sitemap:
+                            type: presta_cms.block.sitemap
                             is_editable: true
                             is_deletable: false
                             position: 10

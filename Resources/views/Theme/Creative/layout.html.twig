@@ -62,14 +62,14 @@
                             {% endfor %}
                         {% endif %}
                     </div>
-                    <div class="span4">
+                    <div class="span3">
                         {% if theme.zones.footer_middle is defined %}
                             {% for block in theme.zones.footer_middle.blocks %}
                                 {{ sonata_block_render(block) }}
                             {% endfor %}
                         {% endif %}
                     </div>
-                    <div class="span4">
+                    <div class="span5">
                         {% block contact %}
                         <div class="contact">
                             <a href="/" class="logo">{{ [website, '.logo.title']|join|trans([], 'Creative') }}</a>

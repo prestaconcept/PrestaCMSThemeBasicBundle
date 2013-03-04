@@ -62,8 +62,6 @@ body {
     a {
         color: #FFF;
     }
-}
-#footer {
     #footer-bottom {
         border-top: 1px solid #3c3c3c;
         margin-top: 25px;
@@ -90,11 +88,7 @@ body {
             display: block;
             background: url(/bundles/prestacmsthemebasic/libs/img/glyphicons/glyphicons_213_up_arrow.png) 50% 50% no-repeat transparent;
             opacity:0.4;
-            -webkit-transition: all 0.1s ease-in-out;
-            -moz-transition: all 0.1s ease-in-out;
-            -o-transition: all 0.1s ease-in-out;
-            -ms-transition: all 0.1s ease-in-out;
-            transition: all 0.1s ease-in-out;
+            .transition(all 0.1s ease-in-out);
         }
     }
     a.logo {
@@ -110,11 +104,24 @@ body {
     .logo-legend {
         text-align: right;
         font-style: italic;
-        margin-bottom: 55px;;
+        margin-bottom: 15px;;
     }
     .contact {
         p {
-            padding-left: 15pxx;
+            padding-left: 55px;
         }
+    }
+    .sitemap {
+        li {
+            list-style-type: none;
+            a {
+                color: @grayLighter;
+                padding-left: 25px;
+                background-image: url(@iconWhiteSpritePath);
+                background-position: -456px -72px;
+                background-repeat: no-repeat;
+            }
+        }
+
     }
 }
