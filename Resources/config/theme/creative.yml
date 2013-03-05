@@ -107,4 +107,36 @@ presta_cms_core:
                                     is_editable: true
                                     is_deletable: false
                                     position: 10
+                right-sidebar:
+                    name: right-sidebar
+                    path: PrestaCMSThemeBasicBundle:Theme/Creative/Page:right-sidebar.html.twig
+                    zones:
+                        content:
+                            rows: 1
+                            cols: 10
+                            name: content
+                            can_add_block: false
+                            can_sort_block: false
+                            blocks:
+                                editor:
+                                    type: presta_cms.block.simple
+                                    is_editable: true
+                                    is_deletable: false
+                                    position: 10
+                        right:
+                            rows: 1
+                            cols: 2
+                            name: right
+                            can_add_block: false
+                            can_sort_block: false
+                            blocks:
+                                editor:
+                                    type: presta_cms.block.simple
+                                    is_editable: true
+                                    is_deletable: false
+                                    position: 10
+                sample:
+                    name: sample
+                    path: PrestaCMSThemeBasicBundle:Theme/Creative/Page:sample.html.twig
+                    zones: {}
 

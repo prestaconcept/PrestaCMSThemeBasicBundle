@@ -47,3 +47,16 @@ a:focus {
 .affix {
     position: fixed;
 }
+
+.alert {
+    padding: 15px 35px 15px 20px;
+}
+
+::selection{ /* Safari and Opera */
+    background: @cyan;
+    color: @bodyBackground;
+}
+::-moz-selection{ /* Firefox */
+    background: @cyan;
+    color: @bodyBackground;
+}

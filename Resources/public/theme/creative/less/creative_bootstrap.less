@@ -81,29 +81,29 @@
 //@tableBackgroundHover:              #f5f5f5; // for hover
 //@tableBorder:                       #ddd; // table and cell border
 //
-//// Buttons
-//// -------------------------
-//@btnBackground:                     @white;
-//@btnBackgroundHighlight:            darken(@white, 10%);
-//@btnBorder:                         #ccc;
-//
-//@btnPrimaryBackground:              @linkColor;
-//@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
-//
-//@btnInfoBackground:                 #5bc0de;
-//@btnInfoBackgroundHighlight:        #2f96b4;
-//
-//@btnSuccessBackground:              #62c462;
-//@btnSuccessBackgroundHighlight:     #51a351;
-//
-//@btnWarningBackground:              lighten(@orange, 15%);
-//@btnWarningBackgroundHighlight:     @orange;
-//
-//@btnDangerBackground:               #ee5f5b;
-//@btnDangerBackgroundHighlight:      #bd362f;
-//
-//@btnInverseBackground:              #444;
-//@btnInverseBackgroundHighlight:     @grayDarker;
+// Buttons
+// -------------------------
+@btnBackground:                     @white;
+@btnBackgroundHighlight:            darken(@white, 10%);
+@btnBorder:                         #ccc;
+
+@btnPrimaryBackground:              @linkColor;
+@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
+
+@btnInfoBackground:                 #5bc0de;
+@btnInfoBackgroundHighlight:        #2f96b4;
+
+@btnSuccessBackground:              #62c462;
+@btnSuccessBackgroundHighlight:     #51a351;
+
+@btnWarningBackground:              lighten(@orange, 15%);
+@btnWarningBackgroundHighlight:     @orange;
+
+@btnDangerBackground:               #ee5f5b;
+@btnDangerBackgroundHighlight:      #bd362f;
+
+@btnInverseBackground:              #444;
+@btnInverseBackgroundHighlight:     @grayDarker;
 //
 //
 //// Forms
@@ -323,13 +323,13 @@
 @import "./../../../libs/bootstrap/less/sprites.less";
 @import "./../../../libs/bootstrap/less/dropdowns.less";
 //@import "wells.less";
-//@import "component-animations.less";
-//@import "close.less";
+@import "./../../../libs/bootstrap/less/component-animations.less";
+@import "./../../../libs/bootstrap/less/close.less";
 //
 //// Components: Buttons & Alerts
-//@import "buttons.less";
-//@import "button-groups.less";
-//@import "alerts.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
+@import "./../../../libs/bootstrap/less/buttons.less";
+@import "./../../../libs/bootstrap/less/button-groups.less";
+@import "./../../../libs/bootstrap/less/alerts.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
 //
 //// Components: Nav
 @import "./../../../libs/bootstrap/less/navs.less";
