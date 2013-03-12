@@ -7,6 +7,9 @@ presta_cms_core:
             template: PrestaCMSThemeBasicBundle:Theme/Creative:layout.html.twig
             screenshot: 'bundles/prestacmsthemebasic/theme/creative/screenshot.jpg'
             admin_style: 'bundles/prestacmsthemebasic/theme/creative/admin/admin.css'
+            block_styles:
+                - info
+                - notice
             zones:
                 top:
                     rows: 1
