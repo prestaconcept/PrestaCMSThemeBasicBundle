@@ -9,7 +9,7 @@ presta_cms_core:
             admin_style: 'bundles/prestacmsthemebasic/theme/creative/admin/admin.css'
             block_styles:
                 - info
-                - notice
+                - headline
             zones:
                 top:
                     rows: 1
