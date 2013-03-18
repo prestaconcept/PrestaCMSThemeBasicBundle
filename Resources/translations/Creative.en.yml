@@ -5,3 +5,7 @@ sandbox:
 
 
 prestacms.bottom.legend: Powered by PrestaCMS
+
+locale:
+    fr: French
+    en: English

@@ -12,17 +12,17 @@
             <link rel="stylesheet" href="{{ asset_url }}" />
             {% endstylesheets %}
         {% endblock %}
-
+        {% trans_default_domain 'Creative' %}
     </head>
     <body class="creative cyan">
         <div id="wrapper">
             <div class="container">
                 <div id="header" class="row">
                     <div class="span7 logo">
-                        <a href="/" >{{ [website, '.logo.title']|join|trans([], 'Creative') }}</a>
-                        <div class="logo-legend">{{ [website, '.logo.legend']|join|trans([], 'Creative') }}</div>
+                        <a href="/" >{{ [website, '.logo.title']|join|trans }}</a>
+                        <div class="logo-legend">{{ [website, '.logo.legend']|join|trans }}</div>
                     </div>
-                    <div class="span5  links">
+                    <div class="span5 links">
                         <ul class="social">
                             <ul class="social">
                                 <li><a href="#" class="rss"></a></li>
@@ -37,6 +37,13 @@
                                 <li><a href="#" class="paypal"></a></li>
                             </ul>
                         </ul>
+                        <div class="languages">
+                            {%  for locale in websiteManager.currentWebsite.availableLocales %}
+                            <a href="{{ websiteManager.getBaseUrlForLocale(locale) }}" {% if(app.request.locale == locale) %}class="active"{% endif %} title="{{ ('locale.' ~ locale)|trans }}">
+                                <img src="{{ asset('bundles/prestacmsthemebasic/img/flags/' ~ locale ~ '.png')}}" />
+                            </a>
+                            {% endfor %}
+                        </div>
                     </div>
                 </div>
                 <div class="navbar navbar-inverse">
@@ -72,8 +79,8 @@
                     <div class="span5">
                         {% block contact %}
                         <div class="contact">
-                            <a href="/" class="logo">{{ [website, '.logo.title']|join|trans([], 'Creative') }}</a>
-                            <div class="logo-legend">{{ [website, '.logo.legend']|join|trans([], 'Creative') }}</div>
+                            <a href="/" class="logo">{{ [website, '.logo.title']|join|trans }}</a>
+                            <div class="logo-legend">{{ [website, '.logo.legend']|join|trans }}</div>
                             <p><i class="icon-user icon-white"></i>&nbsp; +33 (0)4 78 54 45 45</p>
                             <p><i class="icon-envelope icon-white"></i>&nbsp;contact@creative.com</p>
                             <p><i class="icon-home icon-white"></i>&nbsp;5 impasse morel 69003 Lyon FRANCE</p>
@@ -89,7 +96,7 @@
                     </div>
                 </div>
                 <div id="footer-legend" class="row">
-                    <div class="span12">{{ 'prestacms.bottom.legend'|trans([], 'Creative') }}</div>
+                    <div class="span12">{{ 'prestacms.bottom.legend'|trans }}</div>
                 </div>
             </div>
         </div>
