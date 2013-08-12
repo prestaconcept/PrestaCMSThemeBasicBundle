@@ -41,11 +41,7 @@ presta_cms_core:
                             is_editable: true
                             is_deletable: false
                             position: 10
-                            settings:
-                                title: About Us
-                                content: |
-                                    Lorem sequat ipsum dolor lorem sit amet, consectetur adipiscing dolor elit. Aenean nisl orci, condimentum.
-                                    Consectetur adipiscing elit aeneane lorem lipsum, condimentum ultrices consequat eu, vehicula mauris lipsum adipiscing lipsum aenean orci lorem.
+                            settings: {}
                 footer_middle:
                     rows: 1
                     cols: 4
