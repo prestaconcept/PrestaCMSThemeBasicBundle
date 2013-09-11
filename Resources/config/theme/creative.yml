@@ -15,26 +15,26 @@ presta_cms_core:
                     rows: 1
                     cols: 12
                     name: top
-                    can_add_block: false
-                    can_sort_block: false
+                    is_editable: false
+                    is_sortable: false
                 navigation:
                     rows: 1
                     cols: 12
                     name: navigation
-                    can_add_block: false
-                    can_sort_block: false
+                    is_editable: false
+                    is_sortable: false
                 content:
                     rows: 4
                     cols: 12
                     name: content
-                    can_add_block: false
-                    can_sort_block: false
+                    is_editable: false
+                    is_sortable: false
                 footer_left:
                     rows: 1
                     cols: 2
                     name: footer_left
-                    can_add_block: false
-                    can_sort_block: false
+                    is_editable: false
+                    is_sortable: false
                     blocks:
                         editor:
                             type: presta_cms.block.simple
@@ -46,8 +46,8 @@ presta_cms_core:
                     rows: 1
                     cols: 4
                     name: footer_middle
-                    can_add_block: false
-                    can_sort_block: false
+                    is_editable: false
+                    is_sortable: false
                     blocks:
                         sitemap:
                             type: presta_cms.block.sitemap
@@ -58,8 +58,8 @@ presta_cms_core:
                     rows: 1
                     cols: 6
                     name: footer_right
-                    can_add_block: false
-                    can_sort_block: false
+                    is_editable: false
+                    is_sortable: false
                     blocks: {}
             page_template:
                 default:
@@ -70,8 +70,8 @@ presta_cms_core:
                             rows: 1
                             cols: 12
                             name: content
-                            can_add_block: false
-                            can_sort_block: false
+                            is_editable: false
+                            is_sortable: false
                             blocks:
                                 editor:
                                     type: presta_cms.block.simple
@@ -86,8 +86,8 @@ presta_cms_core:
                             rows: 1
                             cols: 2
                             name: left
-                            can_add_block: false
-                            can_sort_block: false
+                            is_editable: false
+                            is_sortable: false
                             blocks:
                                 editor:
                                     type: presta_cms.block.simple
@@ -98,8 +98,8 @@ presta_cms_core:
                             rows: 1
                             cols: 10
                             name: content
-                            can_add_block: false
-                            can_sort_block: false
+                            is_editable: false
+                            is_sortable: false
                             blocks:
                                 editor:
                                     type: presta_cms.block.simple
@@ -114,8 +114,8 @@ presta_cms_core:
                             rows: 1
                             cols: 10
                             name: content
-                            can_add_block: false
-                            can_sort_block: false
+                            is_editable: false
+                            is_sortable: false
                             blocks:
                                 editor:
                                     type: presta_cms.block.simple
@@ -126,8 +126,8 @@ presta_cms_core:
                             rows: 1
                             cols: 2
                             name: right
-                            can_add_block: false
-                            can_sort_block: false
+                            is_editable: false
+                            is_sortable: false
                             blocks:
                                 editor:
                                     type: presta_cms.block.simple
