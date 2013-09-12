@@ -15,51 +15,51 @@ presta_cms_core:
                     rows: 1
                     cols: 12
                     name: top
-                    is_editable: false
-                    is_sortable: false
+                    editable: false
+                    sortable: false
                 navigation:
                     rows: 1
                     cols: 12
                     name: navigation
-                    is_editable: false
-                    is_sortable: false
+                    editable: false
+                    sortable: false
                 content:
                     rows: 4
                     cols: 12
                     name: content
-                    is_editable: false
-                    is_sortable: false
+                    editable: false
+                    sortable: false
                 footer_left:
                     rows: 1
                     cols: 2
                     name: footer_left
-                    is_editable: false
-                    is_sortable: false
+                    editable: false
+                    sortable: false
                     blocks:
                         editor:
                             type: presta_cms.block.simple
-                            is_editable: true
-                            is_deletable: false
+                            editable: true
+                            deletable: false
                             position: 10
                             settings: {}
                 footer_middle:
                     rows: 1
                     cols: 4
                     name: footer_middle
-                    is_editable: false
-                    is_sortable: false
+                    editable: false
+                    sortable: false
                     blocks:
                         sitemap:
                             type: presta_cms.block.sitemap
-                            is_editable: true
-                            is_deletable: false
+                            editable: true
+                            deletable: false
                             position: 10
                 footer_right:
                     rows: 1
                     cols: 6
                     name: footer_right
-                    is_editable: false
-                    is_sortable: false
+                    editable: false
+                    sortable: false
                     blocks: {}
             page_template:
                 default:
@@ -70,13 +70,13 @@ presta_cms_core:
                             rows: 1
                             cols: 12
                             name: content
-                            is_editable: false
-                            is_sortable: false
+                            editable: false
+                            sortable: false
                             blocks:
                                 editor:
                                     type: presta_cms.block.simple
-                                    is_editable: true
-                                    is_deletable: false
+                                    editable: true
+                                    deletable: false
                                     position: 10
                 left-sidebar:
                     name: left-sidebar
@@ -86,25 +86,25 @@ presta_cms_core:
                             rows: 1
                             cols: 2
                             name: left
-                            is_editable: false
-                            is_sortable: false
+                            editable: false
+                            sortable: false
                             blocks:
                                 editor:
                                     type: presta_cms.block.simple
-                                    is_editable: true
-                                    is_deletable: false
+                                    editable: true
+                                    deletable: false
                                     position: 10
                         content:
                             rows: 1
                             cols: 10
                             name: content
-                            is_editable: false
-                            is_sortable: false
+                            editable: false
+                            sortable: false
                             blocks:
                                 editor:
                                     type: presta_cms.block.simple
-                                    is_editable: true
-                                    is_deletable: false
+                                    editable: true
+                                    deletable: false
                                     position: 10
                 right-sidebar:
                     name: right-sidebar
@@ -114,25 +114,25 @@ presta_cms_core:
                             rows: 1
                             cols: 10
                             name: content
-                            is_editable: false
-                            is_sortable: false
+                            editable: false
+                            sortable: false
                             blocks:
                                 editor:
                                     type: presta_cms.block.simple
-                                    is_editable: true
-                                    is_deletable: false
+                                    editable: true
+                                    deletable: false
                                     position: 10
                         right:
                             rows: 1
                             cols: 2
                             name: right
-                            is_editable: false
-                            is_sortable: false
+                            editable: false
+                            sortable: false
                             blocks:
                                 editor:
                                     type: presta_cms.block.simple
-                                    is_editable: true
-                                    is_deletable: false
+                                    editable: true
+                                    deletable: false
                                     position: 10
                 sample:
                     name: sample
