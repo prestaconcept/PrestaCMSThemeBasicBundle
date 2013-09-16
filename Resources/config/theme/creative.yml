@@ -27,7 +27,7 @@ presta_cms_core:
                     rows: 4
                     cols: 12
                     name: content
-                    editable: false
+                    editable: true
                     sortable: false
                 footer_left:
                     rows: 1
@@ -70,7 +70,7 @@ presta_cms_core:
                             rows: 1
                             cols: 12
                             name: content
-                            editable: false
+                            editable: true
                             sortable: false
                             blocks:
                                 editor:
@@ -86,7 +86,7 @@ presta_cms_core:
                             rows: 1
                             cols: 2
                             name: left
-                            editable: false
+                            editable: true
                             sortable: false
                             blocks:
                                 editor:
@@ -98,7 +98,7 @@ presta_cms_core:
                             rows: 1
                             cols: 10
                             name: content
-                            editable: false
+                            editable: true
                             sortable: false
                             blocks:
                                 editor:
@@ -114,7 +114,7 @@ presta_cms_core:
                             rows: 1
                             cols: 10
                             name: content
-                            editable: false
+                            editable: true
                             sortable: false
                             blocks:
                                 editor:
@@ -126,7 +126,7 @@ presta_cms_core:
                             rows: 1
                             cols: 2
                             name: right
-                            editable: false
+                            editable: true
                             sortable: false
                             blocks:
                                 editor:
