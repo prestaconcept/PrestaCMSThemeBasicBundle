@@ -1,5 +1,12 @@
-Presta CMS Theme Basic Bundle  [![Build Status](https://secure.travis-ci.org/prestaconcept/PrestaCMSThemeBasicBundle.png)](http://travis-ci.org/prestaconcept/PrestaCMSThemeBasicBundle)
+Presta CMS Theme Basic Bundle
 =============
+
+[![Build Status](https://secure.travis-ci.org/prestaconcept/PrestaCMSThemeBasicBundle.png)](http://travis-ci.org/prestaconcept/PrestaCMSThemeBasicBundle)
+[![Total Downloads](https://poser.pugx.org/presta/cms-theme-basic-bundle/downloads.png)](https://packagist.org/packages/presta/cms-theme-basic-bundle)
+[![Latest Stable Version](https://poser.pugx.org/presta/cms-theme-basic-bundle/v/stable.png)](https://packagist.org/packages/presta/cms-theme-basic-bundle)
+
+
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/56721a5e-dca2-431f-bd1a-df53eca583d6/big.png)](https://insight.sensiolabs.com/projects/56721a5e-dca2-431f-bd1a-df53eca583d6)
 
 This bundle adds basic themes to [PrestaCMS][1].
 
@@ -41,7 +48,7 @@ public function registerBundles()
 
 ### Creative
 
-![PrestaCMS Creative Theme](https://raw.github.com/prestaconcept/PrestaCMSThemeBasicBundle/master/Resources/public/theme/creative/screenshot.jp)
+![PrestaCMS Creative Theme](https://raw.github.com/prestaconcept/PrestaCMSThemeBasicBundle/master/Resources/public/theme/creative/screenshot.jpg)
 
 
 ## Ask for help ##
