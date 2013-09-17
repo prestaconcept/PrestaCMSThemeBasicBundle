@@ -23,5 +23,10 @@
     "autoload": {
         "psr-0": { "Presta\\CMSThemeBasicBundle": "" }
     },
-    "target-dir": "Presta/CMSThemeBasicBundle"
+    "target-dir": "Presta/CMSThemeBasicBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
 }
