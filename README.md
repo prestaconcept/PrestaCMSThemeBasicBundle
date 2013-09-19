@@ -66,3 +66,7 @@ public function registerBundles()
 [1]: https://github.com/prestaconcept/PrestaCMSCoreBundle
 [2]: https://github.com/prestaconcept/prestacms-sandbox
 [3]: https://groups.google.com/forum/?hl=fr&fromgroups#!forum/prestacms-devs
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/prestaconcept/prestacmsthemebasicbundle/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
