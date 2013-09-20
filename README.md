@@ -5,16 +5,22 @@ Presta CMS Theme Basic Bundle
 [![Total Downloads](https://poser.pugx.org/presta/cms-theme-basic-bundle/downloads.png)](https://packagist.org/packages/presta/cms-theme-basic-bundle)
 [![Latest Stable Version](https://poser.pugx.org/presta/cms-theme-basic-bundle/v/stable.png)](https://packagist.org/packages/presta/cms-theme-basic-bundle)
 
-
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/56721a5e-dca2-431f-bd1a-df53eca583d6/big.png)](https://insight.sensiolabs.com/projects/56721a5e-dca2-431f-bd1a-df53eca583d6)
+[![knpbundles.com](http://knpbundles.com/prestaconcept/PrestaCMSThemeBasicBundle/badge)](http://knpbundles.com/prestaconcept/PrestaCMSThemeBasicBundle)
 
-This bundle adds basic themes to [PrestaCMS][1].
 
-** Important ** :construction: This bundles is currently under development
+PrestaCMSThemeBundle adds ready to use themes into your [PrestaCMS][1]. projects.
+
+It is made to help people starting with PrestaCMS without spending time on design and integration.
+
+It can be a good working example for people who wants to build their own theme.
+
+:book: Documentation is available on [prestaconcept.github.io][4]
 
 :speech_balloon: If you want to have some informations about the projet progession you can register to our [google group][3]
 
-:book: For a ready to use demonstration of PrestaCMS you should check the [prestacms-sandox available on github][2].
+For a ready to use demonstration of PrestaCMS you should check the [prestacms-sandox available on github][2].
+
 
 ## Installation ##
 
@@ -42,31 +48,18 @@ public function registerBundles()
 }
 ```
 
-## Themes
-
-[WIP] :construction:
-
-### Creative
-
-![PrestaCMS Creative Theme](https://raw.github.com/prestaconcept/PrestaCMSThemeBasicBundle/master/Resources/public/theme/creative/screenshot.jpg)
-
-
-## Ask for help ##
-
-:speech_balloon: If you need help about this project you can [post a message on our google group][3]
-
-
-
 ---
 
 *This project is supported by [PrestaConcept](http://www.prestaconcept.net)*
 
-**Lead Developer** : @nicolas-bastien
+**Lead Developer** : [@nicolas-bastien](https://github.com/nicolas-bastien)
+
+Released under the MIT License
 
 [1]: https://github.com/prestaconcept/PrestaCMSCoreBundle
 [2]: https://github.com/prestaconcept/prestacms-sandbox
 [3]: https://groups.google.com/forum/?hl=fr&fromgroups#!forum/prestacms-devs
-
+[4]: http://prestaconcept.github.io/presta-cms-theme/
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/prestaconcept/prestacmsthemebasicbundle/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
