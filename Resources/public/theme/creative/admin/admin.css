@@ -1,0 +1,43 @@
+/**
+ * Creative Theme Administration styles
+ * @author: Nicolas Bastien <nbastien@prestaconcept.net>
+ */
+/**
+ *  Theme edition
+ */
+table.page-content-admin div.page-zone.zone_navigation {
+  background-color: #303030;
+  box-shadow: none;
+  border-radius: none;
+}
+table.page-content-admin div.page-zone.zone_navigation h3 {
+  color: #FFF;
+  text-shadow: none;
+}
+table.page-content-admin div.page-zone.zone_top,
+table.page-content-admin div.page-zone.zone_content {
+  background: #FFF;
+}
+table.page-content-admin div.page-zone.zone_top h3,
+table.page-content-admin div.page-zone.zone_content h3 {
+  color: #303030;
+}
+table.page-content-admin div.page-zone.zone_content {
+  min-height: 150px;
+}
+table.page-content-admin tbody tr:last-child td,
+table.page-content-admin tbody tr:last-child:hover td {
+  background-color: #303030;
+}
+table.page-content-admin tbody tr:last-child td div.page-zone,
+table.page-content-admin tbody tr:last-child:hover td div.page-zone {
+  background: #FFF;
+}
+table.page-content-admin tbody tr:last-child td div.page-zone h3,
+table.page-content-admin tbody tr:last-child:hover td div.page-zone h3 {
+  color: #303030;
+}
+table.page-content-admin tbody tr:last-child td div.page-zone.zone_footer_right,
+table.page-content-admin tbody tr:last-child:hover td div.page-zone.zone_footer_right {
+  min-width: 450px;
+}
