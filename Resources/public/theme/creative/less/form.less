@@ -1,0 +1,48 @@
+
+.form-item {
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    label, legend {
+        display: block;
+        font-weight: bold;
+        font-size: 12px;
+        font-weight: normal;
+        margin-bottom: 8px;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"], textarea, select {
+        border: 1px solid #d8d8d8;
+        padding: 9px;
+        outline: none;
+        font: 12px Arial,sans-serif;
+        color: #888;
+        margin: 0;
+        width: 90%;
+        max-width: 100%;
+        display: block;
+        background: #fff;
+        .box-shadow(0px 1px 1px 0px rgba(180,180,180,0.1));
+    }
+}
+
+.form-actions {
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    .form-submit {
+        margin-right: 8px;
+        background: #72b626;
+        color: #fff;
+    }
+}
+.button, input[type="button"] {
+    padding: 9px 12px;
+    display: inline-block;
+    border: 0px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    width: auto;
+    .transition(all 0.1s ease-in-out);
+}
