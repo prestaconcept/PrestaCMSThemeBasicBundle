@@ -78,14 +78,14 @@
                             {% endfor %}
                         {% endif %}
                     </div>
-                    <div class="span3">
+                    <div class="span4">
                         {% if theme.zones.footer_middle is defined %}
                             {% for block in theme.zones.footer_middle.blocks %}
                                 {{ sonata_block_render(block) }}
                             {% endfor %}
                         {% endif %}
                     </div>
-                    <div class="span5">
+                    <div class="span4">
                         {% block contact %}
                         <div class="contact">
                             <a href="/" class="logo">{{ [presta_cms.website, '.logo.title']|join|trans }}</a>
@@ -96,6 +96,11 @@
                             <p><i class="icon-qrcode icon-white"></i>&nbsp;QR Code</p>
                         </div>
                         {% endblock %}
+                        {% if theme.zones.footer_right is defined %}
+                            {% for block in theme.zones.footer_right.blocks %}
+                                {{ sonata_block_render(block) }}
+                            {% endfor %}
+                        {% endif %}
                     </div>
                 </div>
                 <div id="footer-bottom" class="row">
