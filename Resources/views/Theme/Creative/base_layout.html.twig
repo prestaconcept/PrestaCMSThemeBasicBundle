@@ -96,7 +96,7 @@
                             <p><i class="icon-qrcode icon-white"></i>&nbsp;QR Code</p>
                         </div>
                         {% endblock %}
-                        {% if theme.zones.footer_right is defined %}
+                        {% if theme.zones.footer_right is defined and theme.zones.footer_right.blocks is defined %}
                             {% for block in theme.zones.footer_right.blocks %}
                                 {{ sonata_block_render(block) }}
                             {% endfor %}
