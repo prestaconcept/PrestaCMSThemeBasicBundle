@@ -1,5 +1,5 @@
 Presta CMS Theme Basic Bundle
-=============
+=============================
 
 [![Build Status](https://secure.travis-ci.org/prestaconcept/PrestaCMSThemeBasicBundle.png)](http://travis-ci.org/prestaconcept/PrestaCMSThemeBasicBundle)
 [![Total Downloads](https://poser.pugx.org/presta/cms-theme-basic-bundle/downloads.png)](https://packagist.org/packages/presta/cms-theme-basic-bundle)
@@ -8,6 +8,7 @@ Presta CMS Theme Basic Bundle
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/56721a5e-dca2-431f-bd1a-df53eca583d6/big.png)](https://insight.sensiolabs.com/projects/56721a5e-dca2-431f-bd1a-df53eca583d6)
 [![knpbundles.com](http://knpbundles.com/prestaconcept/PrestaCMSThemeBasicBundle/badge)](http://knpbundles.com/prestaconcept/PrestaCMSThemeBasicBundle)
 
+## Overview ##
 
 PrestaCMSThemeBundle adds ready to use themes into your [PrestaCMS][1]. projects.
 
@@ -15,38 +16,35 @@ It is made to help people starting with PrestaCMS without spending time on desig
 
 It can be a good working example for people who wants to build their own theme.
 
+## Documentation ##
+
 :book: Documentation is available on [prestaconcept.github.io][4]
 
-:speech_balloon: If you want to have some informations about the projet progession you can register to our [google group][3]
+## Online Demonstration ##
 
-For a ready to use demonstration of PrestaCMS you should check the [prestacms-sandox available on github][2].
+Sandbox is also deployed for a live demonstration :
+
+-   [Frontend site][5]
+-   [Administration Site][6]
 
 
-## Installation ##
+If you want to have some informations about the projet progession you can register to our :speech_balloon: [google group][3]
 
-### 1) Install dependencies
+## Issue tracker ##
 
-First you need to follow the [ :book: PrestaCMS installation steps][1].
+:clipboard: Issues are managed in [prestaconcept/open-source-management](https://github.com/prestaconcept/open-source-management) to centralize our open source activity.
 
-### 2) Get the bundle
+## Ask for help ##
 
-    php composer.phar require presta/cms-theme-basic-bundle:dev-master --no-update
-    php composer.phar update presta/cms-theme-basic-bundle
+:speech_balloon: If you need help about this project you can [post a message on our google group][3]
 
-### 3) Update your AppKernel to register the bundle
+## Contributing
 
-```php
-<?php
-// app/AppKernel.php
-public function registerBundles()
-{
-    return array(
-        // ...
-        new Presta\CMSThemeBasicBundle\PrestaCMSThemeBasicBundle(),
-        // ...
-    );
-}
-```
+Pull requests are welcome.
+
+
+Thanks to
+[everyone who has contributed](https://github.com/prestaconcept/PrestaCMSSandboxBundle/graphs/contributors) already.
 
 ---
 
@@ -57,9 +55,7 @@ public function registerBundles()
 Released under the MIT License
 
 [1]: https://github.com/prestaconcept/PrestaCMSCoreBundle
-[2]: https://github.com/prestaconcept/prestacms-sandbox
 [3]: https://groups.google.com/forum/?hl=fr&fromgroups#!forum/prestacms-devs
 [4]: http://prestaconcept.github.io/presta-cms-theme/
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/prestaconcept/prestacmsthemebasicbundle/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+[5]: http://sandbox.prestacms.com/
+[6]: http://sandbox.prestacms.com/admin
