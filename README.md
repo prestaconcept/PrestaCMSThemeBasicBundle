@@ -44,7 +44,7 @@ Pull requests are welcome.
 
 
 Thanks to
-[everyone who has contributed](https://github.com/prestaconcept/PrestaCMSSandboxBundle/graphs/contributors) already.
+[everyone who has contributed](https://github.com/prestaconcept/PrestaCMSThemeBasicBundle/graphs/contributors) already.
 
 ---
 
